@@ -25,7 +25,7 @@ $ composer test
 
 ## Build
 
-After running `composer test` code coverage report will be generated in `./build` folder.
+After running `composer test` code coverage report will be generated in the `./build` folder.
 
 ## Cli
 
