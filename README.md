@@ -32,5 +32,5 @@ After running `composer test` code coverage report will be generated in `./build
 The cli command takes two arguments: the name of the file and the extension:
 
 ```
-php public/console.php app:create-user data json
+php public/console.php app:create-auctions data json
 ```
