@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <items>
+        <name>100 tons of steel</name>
+        <offers>
+            <name>Offer A</name>
+            <price>200000</price>
+            <currency>EUR</currency>
+        </offers>
+        <offers>
+            <name>Offer B</name>
+            <price>190000</price>
+            <currency>EUR</currency>
+        </offers>
+        <offers>
+            <name>Offer C</name>
+            <price>195000</price>
+            <currency>EUR</currency>
+        </offers>
+    </items>
+    <items>
+        <name>50 tons of nickel</name>
+        <offers>
+            <name>Offer A</name>
+            <price>400000</price>
+            <currency>EUR</currency>
+        </offers>
+        <offers>
+            <name>Offer B</name>
+            <price>380000</price>
+            <currency>EUR</currency>
+        </offers>
+        <offers>
+            <name>Offer C</name>
+            <price>390000</price>
+            <currency>EUR</currency>
+        </offers>
+    </items>
+    <items>
+        <name>250 screw drivers</name>
+        <offers>
+            <name>Offer A</name>
+            <price>20000</price>
+            <currency>EUR</currency>
+        </offers>
+        <offers>
+            <name>Offer B</name>
+            <price>15000</price>
+            <currency>EUR</currency>
+        </offers>
+    </items>
+    <items>
+        <name>200 liters of machine oil</name>
+        <offers>
+            <name>Offer A</name>
+            <price>40000</price>
+            <currency>EUR</currency>
+        </offers>
+        <offers>
+            <name>Offer C</name>
+            <price>38000</price>
+            <currency>EUR</currency>
+        </offers>
+    </items>
+</root>

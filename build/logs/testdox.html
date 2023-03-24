@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Test Documentation</title>
+        <style>
+            body {
+                text-rendering: optimizeLegibility;
+                font-family: Source SansSerif Pro, Arial, sans-serif;
+                font-variant-ligatures: common-ligatures;
+                font-kerning: normal;
+                margin-left: 2rem;
+                background-color: #fff;
+                color: #000;
+            }
+
+            body > ul > li {
+                font-size: larger;
+            }
+
+            h2 {
+                font-size: larger;
+                text-decoration-line: underline;
+                text-decoration-thickness: 2px;
+                margin: 0;
+                padding: 0.5rem 0;
+            }
+
+            ul {
+                list-style: none;
+                margin: 0 0 2rem;
+                padding: 0 0 0 1rem;
+                text-indent: -1rem;
+            }
+
+            .success:before {
+                color: #4e9a06;
+                content: '✓';
+                padding-right: 0.5rem;
+            }
+
+            .defect {
+                color: #a40000;
+            }
+
+            .defect:before {
+                color: #a40000;
+                content: '✗';
+                padding-right: 0.5rem;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Reader Factory (VasilDakov\MySupplyTest\Application\Service\ReaderFactory)</h2>
+        <ul>
+            <li class="success">It can be instantiated</li>
+            <li class="success">It can return json adapter</li>
+            <li class="success">It can return yaml adapter</li>
+            <li class="success">It can return xml adapter</li>
+        </ul>
+        <h2>Reader (VasilDakov\MySupplyTest\Application\Service\Reader)</h2>
+        <ul>
+            <li class="success">It can be instantiated</li>
+            <li class="success">It can get the adapter</li>
+            <li class="success">It can read json file</li>
+            <li class="success">It can read xml file</li>
+            <li class="success">It can read yaml file</li>
+            <li class="success">File does not exist or is not readable</li>
+        </ul>
+        <h2>Auction (VasilDakov\MySupplyTest\Domain\Auction)</h2>
+        <ul>
+            <li class="success">It can be instantiated</li>
+            <li class="success">Lots can be added to the auction</li>
+            <li class="success">Lots can be removed from auction</li>
+        </ul>
+        <h2>Item (VasilDakov\MySupplyTest\Domain\Item)</h2>
+        <ul>
+            <li class="success">It can be instantiated</li>
+            <li class="success">Item may not have offers</li>
+            <li class="success">Offers can be added</li>
+        </ul>
+        <h2>Offer (VasilDakov\MySupplyTest\Domain\Offer)</h2>
+        <ul>
+            <li class="success">It can be instantiated</li>
+        </ul>
+        <h2>Json Reader (VasilDakov\MySupplyTest\Infrastructure\Laminas\Reader\JsonReader)</h2>
+        <ul>
+            <li class="success">It can read json file</li>
+        </ul>
+        <h2>Xml Reader (VasilDakov\MySupplyTest\Infrastructure\Laminas\Reader\XmlReader)</h2>
+        <ul>
+            <li class="success">It can read xml file</li>
+        </ul>
+        <h2>Yaml Reader (VasilDakov\MySupplyTest\Infrastructure\Laminas\Reader\YamlReader)</h2>
+        <ul>
+            <li class="success">It can read yaml file</li>
+        </ul>
+    </body>
+</html>

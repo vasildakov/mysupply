@@ -1,0 +1,74 @@
+{
+  "items": [
+    {
+      "name": "100 tons of steel",
+      "offers": [
+        {
+          "name": "Offer A",
+          "price": 200000,
+          "currency": "EUR"
+        },
+        {
+          "name": "Offer B",
+          "price": 190000,
+          "currency": "EUR"
+        },
+        {
+          "name": "Offer C",
+          "price": 195000,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "name": "50 tons of nickel",
+      "offers": [
+        {
+          "name": "Offer A",
+          "price": 400000,
+          "currency": "EUR"
+        },
+        {
+          "name": "Offer B",
+          "price": 380000,
+          "currency": "EUR"
+        },
+        {
+          "name": "Offer C",
+          "price": 390000,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "name": "250 screw drivers",
+      "offers": [
+        {
+          "name": "Offer A",
+          "price": 20000,
+          "currency": "EUR"
+        },
+        {
+          "name": "Offer B",
+          "price": 15000,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "name": "200 liters of machine oil",
+      "offers": [
+        {
+          "name": "Offer A",
+          "price": 40000,
+          "currency": "EUR"
+        },
+        {
+          "name": "Offer C",
+          "price": 38000,
+          "currency": "EUR"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="20" assertions="20" errors="0" warnings="0" failures="0" skipped="0" time="0.028189">
+    <testsuite name="Test Suite" tests="20" assertions="20" errors="0" warnings="0" failures="0" skipped="0" time="0.028189">
+      <testsuite name="VasilDakov\MySupplyTest\Application\Service\ReaderFactoryTest" file="/Users/vasildakov/Dev/php/mysupply/tests/Application/Service/ReaderFactoryTest.php" tests="4" assertions="4" errors="0" warnings="0" failures="0" skipped="0" time="0.007474">
+        <testcase name="testItCanBeInstantiated" class="VasilDakov\MySupplyTest\Application\Service\ReaderFactoryTest" classname="VasilDakov.MySupplyTest.Application.Service.ReaderFactoryTest" file="/Users/vasildakov/Dev/php/mysupply/tests/Application/Service/ReaderFactoryTest.php" line="21" assertions="1" time="0.003013"/>
+        <testcase name="testItCanReturnJsonAdapter" class="VasilDakov\MySupplyTest\Application\Service\ReaderFactoryTest" classname="VasilDakov.MySupplyTest.Application.Service.ReaderFactoryTest" file="/Users/vasildakov/Dev/php/mysupply/tests/Application/Service/ReaderFactoryTest.php" line="27" assertions="1" time="0.001348"/>
+        <testcase name="testItCanReturnYamlAdapter" class="VasilDakov\MySupplyTest\Application\Service\ReaderFactoryTest" classname="VasilDakov.MySupplyTest.Application.Service.ReaderFactoryTest" file="/Users/vasildakov/Dev/php/mysupply/tests/Application/Service/ReaderFactoryTest.php" line="33" assertions="1" time="0.001746"/>
+        <testcase name="testItCanReturnXmlAdapter" class="VasilDakov\MySupplyTest\Application\Service\ReaderFactoryTest" classname="VasilDakov.MySupplyTest.Application.Service.ReaderFactoryTest" file="/Users/vasildakov/Dev/php/mysupply/tests/Application/Service/ReaderFactoryTest.php" line="39" assertions="1" time="0.001367"/>
+      </testsuite>
+      <testsuite name="VasilDakov\MySupplyTest\Application\Service\ReaderTest" file="/Users/vasildakov/Dev/php/mysupply/tests/Application/Service/ReaderTest.php" tests="6" assertions="6" errors="0" warnings="0" failures="0" skipped="0" time="0.012778">
+        <testcase name="testItCanBeInstantiated" class="VasilDakov\MySupplyTest\Application\Service\ReaderTest" classname="VasilDakov.MySupplyTest.Application.Service.ReaderTest" file="/Users/vasildakov/Dev/php/mysupply/tests/Application/Service/ReaderTest.php" line="30" assertions="1" time="0.007103"/>
+        <testcase name="testItCanGetTheAdapter" class="VasilDakov\MySupplyTest\Application\Service\ReaderTest" classname="VasilDakov.MySupplyTest.Application.Service.ReaderTest" file="/Users/vasildakov/Dev/php/mysupply/tests/Application/Service/ReaderTest.php" line="37" assertions="1" time="0.000684"/>
+        <testcase name="testItCanReadJsonFile" class="VasilDakov\MySupplyTest\Application\Service\ReaderTest" classname="VasilDakov.MySupplyTest.Application.Service.ReaderTest" file="/Users/vasildakov/Dev/php/mysupply/tests/Application/Service/ReaderTest.php" line="44" assertions="1" time="0.000971"/>
+        <testcase name="testItCanReadXmlFile" class="VasilDakov\MySupplyTest\Application\Service\ReaderTest" classname="VasilDakov.MySupplyTest.Application.Service.ReaderTest" file="/Users/vasildakov/Dev/php/mysupply/tests/Application/Service/ReaderTest.php" line="51" assertions="1" time="0.001458"/>
+        <testcase name="testItCanReadYamlFile" class="VasilDakov\MySupplyTest\Application\Service\ReaderTest" classname="VasilDakov.MySupplyTest.Application.Service.ReaderTest" file="/Users/vasildakov/Dev/php/mysupply/tests/Application/Service/ReaderTest.php" line="58" assertions="1" time="0.001348"/>
+        <testcase name="testFileDoesNotExistOrIsNotReadable" class="VasilDakov\MySupplyTest\Application\Service\ReaderTest" classname="VasilDakov.MySupplyTest.Application.Service.ReaderTest" file="/Users/vasildakov/Dev/php/mysupply/tests/Application/Service/ReaderTest.php" line="65" assertions="1" time="0.001213"/>
+      </testsuite>
+      <testsuite name="VasilDakov\MySupplyTest\Domain\AuctionTest" file="/Users/vasildakov/Dev/php/mysupply/tests/Domain/AuctionTest.php" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.003041">
+        <testcase name="testItCanBeInstantiated" class="VasilDakov\MySupplyTest\Domain\AuctionTest" classname="VasilDakov.MySupplyTest.Domain.AuctionTest" file="/Users/vasildakov/Dev/php/mysupply/tests/Domain/AuctionTest.php" line="24" assertions="1" time="0.001068"/>
+        <testcase name="testLotsCanBeAddedToTheAuction" class="VasilDakov\MySupplyTest\Domain\AuctionTest" classname="VasilDakov.MySupplyTest.Domain.AuctionTest" file="/Users/vasildakov/Dev/php/mysupply/tests/Domain/AuctionTest.php" line="30" assertions="1" time="0.001245"/>
+        <testcase name="testLotsCanBeRemovedFromAuction" class="VasilDakov\MySupplyTest\Domain\AuctionTest" classname="VasilDakov.MySupplyTest.Domain.AuctionTest" file="/Users/vasildakov/Dev/php/mysupply/tests/Domain/AuctionTest.php" line="41" assertions="1" time="0.000728"/>
+      </testsuite>
+      <testsuite name="VasilDakov\MySupplyTest\Domain\ItemTest" file="/Users/vasildakov/Dev/php/mysupply/tests/Domain/ItemTest.php" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.001975">
+        <testcase name="testItCanBeInstantiated" class="VasilDakov\MySupplyTest\Domain\ItemTest" classname="VasilDakov.MySupplyTest.Domain.ItemTest" file="/Users/vasildakov/Dev/php/mysupply/tests/Domain/ItemTest.php" line="18" assertions="1" time="0.000544"/>
+        <testcase name="testItemMayNotHaveOffers" class="VasilDakov\MySupplyTest\Domain\ItemTest" classname="VasilDakov.MySupplyTest.Domain.ItemTest" file="/Users/vasildakov/Dev/php/mysupply/tests/Domain/ItemTest.php" line="25" assertions="1" time="0.000510"/>
+        <testcase name="testOffersCanBeAdded" class="VasilDakov\MySupplyTest\Domain\ItemTest" classname="VasilDakov.MySupplyTest.Domain.ItemTest" file="/Users/vasildakov/Dev/php/mysupply/tests/Domain/ItemTest.php" line="31" assertions="1" time="0.000921"/>
+      </testsuite>
+      <testsuite name="VasilDakov\MySupplyTest\Domain\OfferTest" file="/Users/vasildakov/Dev/php/mysupply/tests/Domain/OfferTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.000526">
+        <testcase name="testItCanBeInstantiated" class="VasilDakov\MySupplyTest\Domain\OfferTest" classname="VasilDakov.MySupplyTest.Domain.OfferTest" file="/Users/vasildakov/Dev/php/mysupply/tests/Domain/OfferTest.php" line="12" assertions="1" time="0.000526"/>
+      </testsuite>
+      <testsuite name="VasilDakov\MySupplyTest\Infrastructure\Laminas\Reader\JsonReaderTest" file="/Users/vasildakov/Dev/php/mysupply/tests/Infrastructure/Laminas/Reader/JsonReaderTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.000618">
+        <testcase name="testItCanReadJsonFile" class="VasilDakov\MySupplyTest\Infrastructure\Laminas\Reader\JsonReaderTest" classname="VasilDakov.MySupplyTest.Infrastructure.Laminas.Reader.JsonReaderTest" file="/Users/vasildakov/Dev/php/mysupply/tests/Infrastructure/Laminas/Reader/JsonReaderTest.php" line="20" assertions="1" time="0.000618"/>
+      </testsuite>
+      <testsuite name="VasilDakov\MySupplyTest\Infrastructure\Laminas\Reader\XmlReaderTest" file="/Users/vasildakov/Dev/php/mysupply/tests/Infrastructure/Laminas/Reader/XmlReaderTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.000932">
+        <testcase name="testItCanReadXmlFile" class="VasilDakov\MySupplyTest\Infrastructure\Laminas\Reader\XmlReaderTest" classname="VasilDakov.MySupplyTest.Infrastructure.Laminas.Reader.XmlReaderTest" file="/Users/vasildakov/Dev/php/mysupply/tests/Infrastructure/Laminas/Reader/XmlReaderTest.php" line="20" assertions="1" time="0.000932"/>
+      </testsuite>
+      <testsuite name="VasilDakov\MySupplyTest\Infrastructure\Laminas\Reader\YamlReaderTest" file="/Users/vasildakov/Dev/php/mysupply/tests/Infrastructure/Laminas/Reader/YamlReaderTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.000845">
+        <testcase name="testItCanReadYamlFile" class="VasilDakov\MySupplyTest\Infrastructure\Laminas\Reader\YamlReaderTest" classname="VasilDakov.MySupplyTest.Infrastructure.Laminas.Reader.YamlReaderTest" file="/Users/vasildakov/Dev/php/mysupply/tests/Infrastructure/Laminas/Reader/YamlReaderTest.php" line="19" assertions="1" time="0.000845"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
