@@ -14,7 +14,7 @@ $ composer install
 ```
 
 ## Data
-The data is located in `./data` available in three different formats: `xml`, `json` and `yaml`
+The data is located in `./data` folder, and it is available in three different formats: `xml`, `json` and `yaml`
 
 
 ## Unit Tests
