@@ -41,4 +41,10 @@ final class ReaderFactoryTest extends TestCase
         $reader = (new ReaderFactory())('xml');
         $this->assertInstanceOf(XmlReader::class, $reader->adapter);
     }
+
+    public function testItThrowsExceptionForInvalidFormat()
+    {
+        $this->expectException(\Throwable::class);
+        $reader = (new ReaderFactory())('csv');
+    }
 }

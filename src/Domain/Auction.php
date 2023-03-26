@@ -17,7 +17,7 @@ class Auction {
     // the array of items/lots
     private array $items = [];
 
-    public function __construct(string $name)
+    public function __construct(string $name = '')
     {
         $this->name = $name;
     }

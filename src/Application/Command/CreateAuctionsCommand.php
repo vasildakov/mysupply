@@ -11,6 +11,7 @@ use Symfony\Component\Console\Helper\TableCell;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
+use VasilDakov\MySupply\Application\Service\AuctionFactory;
 use VasilDakov\MySupply\Application\Service\ReaderFactory;
 
 /**
@@ -24,7 +25,7 @@ use VasilDakov\MySupply\Application\Service\ReaderFactory;
     aliases: ['app:create-auctions'],
     hidden: false
 )]
-class CreateAuctionCommand extends Command
+class CreateAuctionsCommand extends Command
 {
     protected function configure()
     {
@@ -50,28 +51,22 @@ class CreateAuctionCommand extends Command
         try {
             $reader = (new ReaderFactory())($extension);
 
-            // at this point the result is just an array with auctions
-            // after implementing the algorithm for building the auctions
-            // they will appear here
-            $result = ($reader)($file, $extension);
+            $data = ($reader)($file, $extension);
 
-            // this is just a test with static data, showing how the output
-            // table should look like in the console
-            foreach ($result['items'] as $item) {
+            $auctions = (new AuctionFactory())($data);
+
+            $i = 1;
+            foreach ($auctions as $auction) {
                 $table = new Table($output);
-                $table
-                    ->setHeaders(
-                        [new TableCell('Negotiation 1', ['colspan' => 4])],
-                        ['Requested Item', 'Offer A', 'Offer B', 'Offer C'],
-                    )
-                    ->setRows([
-                        ['100 tons of steel', '€200000', '€190000', '€195000'],
-                        ['50 tons of nickel', '€400000', '€380000', '€390000'],
-                    ])
-                ;
+                $table->setHeaders([
+                    [new TableCell("Negotiation {$i}", ['colspan' => $auction['colspan']])],
+                    $auction['headers'],
+                ]);
+                $table->setRows($auction['rows']);
                 $table->render();
-            }
 
+                $i++;
+            }
             return Command::SUCCESS;
 
         } catch (\Throwable $e) {

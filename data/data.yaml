@@ -1,5 +1,5 @@
 items:
-  - name: 100 tons of steel
+  - name: 100 tons of steel YAML
     offers:
       - name: Offer A
         price: 200000
@@ -10,7 +10,7 @@ items:
       - name: Offer C
         price: 195000
         currency: EUR
-  - name: 50 tons of nickel
+  - name: 50 tons of nickel YAML
     offers:
       - name: Offer A
         price: 400000
@@ -21,7 +21,7 @@ items:
       - name: Offer C
         price: 390000
         currency: EUR
-  - name: 250 screw drivers
+  - name: 250 screw drivers YAML
     offers:
       - name: Offer A
         price: 20000
@@ -29,7 +29,7 @@ items:
       - name: Offer B
         price: 15000
         currency: EUR
-  - name: 200 liters of machine oil
+  - name: 200 liters of machine oil YAML
     offers:
       - name: Offer A
         price: 40000

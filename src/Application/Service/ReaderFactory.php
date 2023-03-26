@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace VasilDakov\MySupply\Application\Service;
 
+use Throwable;
+use ValueError;
 use VasilDakov\MySupply\Infrastructure\Laminas\Reader\JsonReader;
 use VasilDakov\MySupply\Infrastructure\Laminas\Reader\XmlReader;
 use VasilDakov\MySupply\Infrastructure\Laminas\Reader\YamlReader;
@@ -17,7 +19,9 @@ final class ReaderFactory
 {
     public function __invoke(string $extension): Reader
     {
-        if (!Format::from($extension)) {
+        try {
+            $format = Format::from($extension);
+        } catch (Throwable $e) {
             throw new \InvalidArgumentException(
                 "Format is not supported!"
             );

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <root>
     <items>
-        <name>100 tons of steel</name>
+        <name>100 tons of steel XML</name>
         <offers>
             <name>Offer A</name>
             <price>200000</price>
@@ -19,7 +19,7 @@
         </offers>
     </items>
     <items>
-        <name>50 tons of nickel</name>
+        <name>50 tons of nickel XML</name>
         <offers>
             <name>Offer A</name>
             <price>400000</price>
@@ -37,7 +37,7 @@
         </offers>
     </items>
     <items>
-        <name>250 screw drivers</name>
+        <name>250 screw drivers XML</name>
         <offers>
             <name>Offer A</name>
             <price>20000</price>
@@ -50,7 +50,7 @@
         </offers>
     </items>
     <items>
-        <name>200 liters of machine oil</name>
+        <name>200 liters of machine oil XML</name>
         <offers>
             <name>Offer A</name>
             <price>40000</price>
