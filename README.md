@@ -7,8 +7,12 @@ PHP 8.1
 ```
 
 ## Installation
+
+Just clone the repository, switch to develop branch and install composer dependencies.
+
 ```
 $ git clone git@github.com:vasildakov/mysupply.git
+$ git checkout develop
 
 $ composer install
 ```
@@ -18,6 +22,8 @@ The data is located in `./data` folder, and it is available in three different f
 
 
 ## Unit Tests
+
+The unit tests can be executed by running:
 
 ```
 $ composer test
@@ -37,7 +43,7 @@ Generating code coverage report in HTML format ... done [00:00.106]
 
 ## Build
 
-After running `composer test` code coverage report will be generated in the `./build` folder.
+After running `composer test` code coverage report will be generated in HTML format and stored in the `./build` folder.
 
 ## Cli
 
